@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>
+            Rytcrop
+        </title>
+        <link rel="stylesheet" href="stylesheets/roomOutput.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&family=Noto+Serif+Georgian:wght@300&family=Open+Sans&family=Outfit&family=PT+Sans+Narrow:wght@700&family=Playfair+Display+SC&family=Poppins&family=Roboto+Mono:wght@500&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Wix+Madefor+Display:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div id="left">
+                <a href="" style="text-decoration: none;color: #eeeeee;"><p class="rytcrop">Rytcrop</p></a>
+            </div>
+            <div id="right">
+                <!-- <a class="btn" href="contactUs.ejs">Contact us</a> -->
+                <!-- <a class="btn" href="login.ejs">Log in</a> -->
+                <!-- <button class="btn3" type="button" onclick="signUP"><div>Sign up <div class="underline1"></div> </div></button> -->
+            </div>
+        </div>  
+        <div class="bottomBody">
+            <div class="block1">
+                <div id="block11">
+                    <div id="nav1">
+                        <img id="imag" src="images/menus.png" height="37px">
+                    </div>
+                    <div class="block1Bottom">
+                        <img class="imag1" src="images/user.png" height="130px">
+                    </div>
+                    <div class="block1Bottom">
+                        <p class="userName"><b><%= fname %></b></p>
+                    </div>
+                    <div class="block1Bottom">
+                        <p class="profession"><%=occup%></p>
+                    </div>
+                    <div class="block1Bottom">
+                        <img class="imag2" src="images/placeholder.png" height="20px">
+                        <p class="location"><%=loca%></p>
+                    </div>
+                    <div class="block1Bottom1">
+                        <p class="about">About:</p>
+                        <p class="abouts"><%=abo%></p>
+                    </div>
+                    <div class="dashed"></div>
+                </div>
+                <div id="block12">
+                    <div id="nav2">
+                        <img id="imag" src="images/menus.png" height="37px" >
+                    </div>
+                    <div class="home">
+                        <img id="imag3" src="images/home (1).png" height="25px" >
+                        <a class="barButtons" href="/room.ejs">Home</a>
+                    </div>
+                    <div class="home home1">
+                        <img id="imag2" src="images/buy.png" height="30px" >
+                        <a class="barButtons" href="#">Sell your crop</a>
+                    </div>
+                    <div class="home home1">
+                        <img id="imag2" src="images/shopping-cart.png" height="30px" >
+                        <a class="barButtons" href="#">Buy</a>
+                    </div>
+                    <div class="home home1">
+                        <img id="imag3" src="images/logout.png" height="25px" >
+                        <a class="barButtons" href="/">logout</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="block2">
+                <div class="cb2">
+                    <div id="hide3">
+                        <div class="sec">
+                            <div class="card1">
+                                <div class="card1left">
+                                    <img src="images/<%= RecommendedCrops1[0].crop %>.jpg" alt="HTML5 Icon" style="height:80%;border-radius: 15px;">
+                                </div>
+                                <div class="card1right">
+                                    <p class="information">Name : <%= RecommendedCrops1[0].crop %></p>
+                                    <p class="information">Suitable soil : <%= RecommendedCrops1[0].suitableSoil %></p>
+                                    <p class="information">Amount of water required : <%= RecommendedCrops1[0].waterRequired %>mm</p>
+                                    <p class="information">Average Market price : <%= RecommendedCrops1[0].marketPrice %>₹ per ton</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec">
+                            <div class="card1">
+                                <div class="card1left">
+                                    <img src="images/<%= RecommendedCrops2[0].crop %>.jpg" alt="HTML5 Icon" style="height:80%;border-radius: 15px;">
+                                </div>
+                                <div class="card1right">
+                                    <p class="information">Name : <%= RecommendedCrops2[0].crop %></p>
+                                    <p class="information">Suitable soil : <%= RecommendedCrops2[0].suitableSoil %></p>
+                                    <p class="information">Amount of water required : <%= RecommendedCrops2[0].waterRequired %>mm</p>
+                                    <p class="information">Average Market price : <%= RecommendedCrops2[0].marketPrice %>₹ per ton</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec">
+                            <div class="card1">
+                                <div class="card1left">
+                                    <img src="images/<%= RecommendedCrops3[0].crop %>.jpg" alt="HTML5 Icon" style="height:80%;border-radius: 15px;">
+                                </div>
+                                <div class="card1right">
+                                    <p class="information">Name : <%= RecommendedCrops3[0].crop %></p>
+                                    <p class="information">Suitable soil : <%= RecommendedCrops3[0].suitableSoil %></p>
+                                    <p class="information">Amount of water required : <%= RecommendedCrops3[0].waterRequired %>mm</p>
+                                    <p class="information">Average Market price : <%= RecommendedCrops3[0].marketPrice %>₹ per ton</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      
+                </div>
+            </div>
+            <div class="block3">
+                <div class="cb3">
+                    <div class="card">
+                        <div class="search">
+                            <input type="text" placeholder="enter city name" spellcheck="false">
+                            <button class="searchb"><img src="images/search.png"></button>
+                        </div>
+                        <div class="weather">
+                            <img src="images/rain.png" class="weather-icon">
+                            <h1 class="temp">22°c</h1>
+                            <h2 class="city">New York</h2>
+                            <div class="details">
+                                <div class="col">
+                                    <img src="images/humidity.png">
+                                    <div>
+                                        <p class="humidity">50%</p>
+                                        <p class="hum">Humidity</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <img src="images/wind.png">
+                                    <div>
+                                        <p class="wind">15 km/h</p>
+                                        <p class="hum">Wind speed</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="scripts/roomOutput.js"></script>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>
+            Rytcrop
+        </title>
+        <link rel="stylesheet" href="stylesheets/room.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&family=Noto+Serif+Georgian:wght@300&family=Open+Sans&family=Outfit&family=PT+Sans+Narrow:wght@700&family=Playfair+Display+SC&family=Poppins&family=Roboto+Mono:wght@500&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Wix+Madefor+Display:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div id="left">
+                <a href="/room.ejs" style="text-decoration: none;color: #eeeeee;"><p class="rytcrop">Rytcrop</p></a>
+            </div>
+            <div id="right">
+                <!-- <a class="btn" href="contactUs.ejs">Contact us</a> -->
+                <!-- <a class="btn" href="login.ejs">Log in</a> -->
+                <!-- <button class="btn3" type="button" onclick="signUP"><div>Sign up <div class="underline1"></div> </div></button> -->
+            </div>
+        </div>  
+        <div class="bottomBody">
+            <%- include("roomLeftBar") -%>
+            <%- include("roomMiddleBar") -%>
+            <%- include("roomRightBar") -%>
+        <script src="scripts/room.js"></script>
+    </body>
+</html>

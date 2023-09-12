@@ -1,0 +1,29 @@
+﻿_id,state,crop1,crop2,crop3
+1,Andhra Pradesh,rice,mango,blackgram
+2,Arunachal Pradesh,rice,apple,orange
+3,Assam,rice,tea,jute
+4,Bihar,rice,wheat,lentil
+5,Chhattisgarh,rice,maize,chickpea
+6,Goa,rice,coconut,mango
+7,Gujarat,cotton,chickpea,blackgram
+8,Haryana,wheat,rice,mango
+9,Himachal Pradesh,apple,potato,maize
+10,Jharkhand,rice,maize,chickpea
+11,Karnataka,rice,coconut,grapes
+12,Kerala,rice,coconut,banana
+13,Madhya Pradesh,soybean,wheat,chickpea
+14,Maharashtra,grapes,pomegrante,lentil
+15,Manipur,rice,maize,orange
+16,Meghalaya,rice,potato,maize
+17,Mizoram,pineapple,potato,rice
+18,Nagaland,rice,sugarcane,potato
+19,Odisha,rice,chickpea,blackgram
+20,Punjab,wheat,cotton,maize
+21,Rajasthan,wheat,lentil,cotton
+22,Sikkim,rice,potato,maize
+23,Tamil Nadu,banana,coconut,coffee
+24,Telangana,rice,cotton,pigeonpeas
+25,Tripura,rice,rubber,tea
+26,Uttar Pradesh,rice,maize,sugarcane
+27,Uttarakhand,rice,maize,apples
+28,West Bengal,rice,jute,chickpea

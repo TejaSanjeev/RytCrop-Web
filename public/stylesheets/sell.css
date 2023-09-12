@@ -1,0 +1,201 @@
+body{
+    background-color: #eee;
+    margin: 0%;
+}
+#header{
+    height:7vh;
+    width:100%;
+    background-color: #222831;
+    
+    
+}
+#header {
+    z-index: 1;
+    position: sticky;
+    display: flex;
+    height: 7vh;
+  }
+  
+  #left {
+    padding-top: 10px;
+    width: 25%;
+    
+  }
+  
+  #right {
+    text-align: right;
+    width: 75%;
+    margin: 0px;
+    border: 0px;
+    padding-top: 15px;
+  }
+  .rytcrop {
+    padding: 0px; 
+    border: 0px;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 0%;
+    font-weight: bold;
+    color: #eee;
+    font-size: 25px;
+  }
+  .block1{
+    height:93vh;
+    width:20%;
+    margin: 0%;
+    border: 0px;
+    float:left;
+}  
+  #nav1{
+    height:8vh;
+    width:100%;
+}
+#nav2{
+  height:8vh;
+  width:100%;
+}
+#imag{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.block1Bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#block11{
+  display: none;
+}
+#block12{
+  height:100%;
+  background-color: white;
+  display: block;
+}
+.home{
+  margin-top: 3vh;
+  height:7vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+}
+.home1{
+  margin-top: 0.7vh;
+}
+#imag2{
+    float:left;
+    padding-left: 2vw;
+}
+#imag3{
+  float:left;
+  padding-left: 2.4vw;
+}
+
+/* .barButtons{
+  font-size: 17px;
+  text-decoration: none;
+  padding-left: 1vw;
+  color: #393E46;
+}
+a:hover .barButtons{
+  font-size: 18px;
+  color: #222831;
+} */
+.barButtons {
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 1.2vw;
+  color: #393E46;
+  transition: font-size 0.3s, color 0.3s;
+  position: relative;
+  font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.barButtons::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.home:hover .barButtons {
+  font-size: 16px;
+  color: #222831;
+}
+
+.home:hover .barButtons::before {
+  background-color: #222831;
+}
+
+.imag1{
+    margin-top: 50px;
+}
+.userName
+{
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.profession
+{
+    font-weight:bolder;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0%;
+    color: #424446;
+}
+.location
+{
+    font-weight:bolder;
+    font-size: 13px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-family: 'Montserrat', sans-serif;
+    color: #424446;
+}
+.block1Bottom1{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.about{
+    font-weight:bolder;
+    font-size: 17px;
+    margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+.abouts{
+    font-weight:bold;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #424446;
+}
+.dashed{
+    height:2px;
+    border-radius: 20px;
+    width:60%;
+    margin-top: 12%;
+    margin-left: 20%;
+
+    background-color: #a6a5a5;
+}
+.block2{
+    height:93vh;
+    width:60%;
+    margin: 0%;
+    border: 0px;
+    float:left;
+}
+.cb1{
+    overflow: auto;
+    height:22%;
+    width:94%;
+    background-color: #01cbd6;
+    margin:2%;
+    margin-right: 0%;
+    border-radius: 10px;
+}

@@ -1,0 +1,30 @@
+﻿_id,crop,suitableSoil,waterRequired,marketPrice
+1,rice,Clayey soil               ,1000-1500,18000-25000
+2,maize,well-drained fertile soil,500-700,10000-18000
+3,chickpea,sandy loam to clayey soil,400-500,40000-55000
+4,kidneybeans,well-drained sandy loam,400-600,30000-45000
+5,pigeonpeas,well-drained sandy loam,400-500,15000-22000
+6,mothbeans,sandy loam to clayey soil,400-600,45000-60000
+7,mungbean,sandy loam to clayey soil,300-450,60000-80000
+8,blackgram,sandy loam to clayey soil,600-700,70000-90000
+9,lentil,sandy loam to clayey soil,350-450,40000-55000
+10,pomegranate,sandy loam to clayey soil,900-1000,30000-45000
+11,banana,well-drained loamy soil,1500-2000,8000-12000
+12,mango,well-drained sandy loam,850-1000,20000-30000
+13,grapes,well-drained loamy soil,700-900,30000-50000
+14,watermelon,well-drained sandy loam,500-750,6000-9000
+15,muskmelon,sandy loam to clayey soil,450-650,12000-18000
+16,apple,well-drained loamy soil,1000-1500,50000-70000
+17,orange,well-drained sandy loam,850-1000,25000-35000
+18,papaya,well-drained loamy soil,1500-2000,8000-12000
+19,coconut,well-drained sandy loam,1000-1500,25000-35000
+20,cotton,sandy loam to clayey soil,600-800,40000-50000
+21,jute,sandy loam to clayey soil,1200-1500,35000-45000
+22,coffee,well-drained loamy soil,2000-2500,80000-100000
+23,soybean,well-drained loamy soil,500-700,25000-35000
+24,pineapple,well-drained sandy loam,1000-1500,12000-18000
+25,potato,Loamy soil,450-600,12000-18000
+26,wheat,well-drained loamy soil,600-700,18000-25000
+27,rubber,well-drained sandy loam,2500-3000,120000-150000
+28,tea ,well-drained loamy soil,1500-2000,20000-30000
+29,sugarcane,well-drained loamy soil,1500-2000,25000-35000
