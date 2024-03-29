@@ -57,7 +57,7 @@ function flipInputCards() {
     document.getElementById('hide3').style.display = 'block';
 
 }
-const apiKey=""; //please insert your api key
+const apiKey="aa9b4f593b31b7d3f6fd788d72b63d29";
         const apiUrl="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
         const searchBox=document.querySelector(".search input");
         const searchBtn=document.querySelector(".search button");
